@@ -127,3 +127,22 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+ecommerceVenv/Scripts/python.exe
+ecommerceVenv/Scripts/pip3.10.exe
+ecommerceVenv/Scripts/pip3.exe
+ecommerceVenv/Scripts/pythonw.exe
+ecommerceVenv/Scripts/sqlformat.exe
+ecommerceVenv/Scripts/pip.exe
+ecommerceVenv/Scripts/django-admin.exe
+.gitignore
+ecommerceVenv/Scripts/activate.bat
+ecommerceVenv/Scripts/Activate.ps1
+ecommerceVenv/Scripts/deactivate.bat
+ecommerceVenv/pyvenv.cfg
+ecommerceVenv/Scripts/activate
+static/*
+mainApp/migrations/0002_remove_user_created_at.py
+.gitignore
+mainApp/migrations/0001_initial.py
+mainApp/migrations/0003_reporter_article.py
+mainApp/migrations/__init__.py
