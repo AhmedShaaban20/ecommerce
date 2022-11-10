@@ -25,5 +25,6 @@ class LoginApi(APIView):
         user = auth.authenticate(email=email, password=password)
         if User is not None:
             token = Token.objects.get(user=user)
-            return Response({"token":str(token)},status=status.HTTP_200_OK)
+            u_serializer = UserSerializer(user,many=False)
+            return Response({"token":str(token), "user":u_serializer.data},status=status.HTTP_200_OK)
         else : return Response(status=status.HTTP_401_UNAUTHORIZED)
